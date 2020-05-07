@@ -122,7 +122,7 @@ export default class PathfindingVisualizer extends Component {
     const {grid, mouseIsPressed} = this.state;
 
     return (
-      <>
+      <body>
       <div class="navbar">
         <ul>
           <li class="text"><a onClick={() => window.location.reload()}> Pathfinding Visualizer</a></li>
@@ -176,7 +176,7 @@ export default class PathfindingVisualizer extends Component {
             <li class="f"><img src={require('./wall.png')} />   Wall Node</li>
           </ul>
         </div>
-      </>
+      </body>
     );
   }
 }

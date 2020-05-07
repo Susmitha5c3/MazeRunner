@@ -1,6 +1,12 @@
+body {
+  background-image: url('space.jpg');
+  background-blend-mode: lighten;
+  /* opacity: 0.5; */
+}
 
 .grid {
     margin: 10px 0 0px;
+    /* display: none; */
   }
 
   ul {
