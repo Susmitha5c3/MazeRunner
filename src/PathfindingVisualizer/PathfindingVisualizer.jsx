@@ -169,12 +169,12 @@ export default class PathfindingVisualizer extends Component {
         </div>
         <div class="footer">
           <ul>
-            <li class="f"><img src={require('./spaceship.png')} />    Start Node</li>
-            <li class="f"><img src={require('./empire.png')} />    Target Node</li>
-            <li class="f"><img src={require('./unvisited.png')} />    Unvisited Node</li>
-            <li class="f"><img src={require('./visited.png')} />    Visited Node</li>
-            <li class="f"><img src={require('./light.png')} />    Shortest Path Node</li>
-            <li class="f"><img src={require('./DarthVader.png')} />   Wall Node</li>
+            <li class="f"><img src={require('./spaceship.png')} />&nbsp;&nbsp;&nbsp;Start Node</li>
+            <li class="f"><img src={require('./empire.png')} />&nbsp;&nbsp;&nbsp;Target Node</li>
+            <li class="f"><img src={require('./unvisited.png')} />&nbsp;&nbsp;&nbsp;Unvisited Node</li>
+            <li class="f"><img src={require('./visited.png')} />&nbsp;&nbsp;&nbsp;Visited Node</li>
+            <li class="f"><img src={require('./light.png')} /> &nbsp;&nbsp;&nbsp;Shortest Path Node</li>
+            <li class="f"><img src={require('./DarthVader.png')} />&nbsp;&nbsp;&nbsp;Wall Node</li>
           </ul>
         </div>
       </body>
