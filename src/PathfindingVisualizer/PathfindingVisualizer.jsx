@@ -62,13 +62,13 @@ export default class PathfindingVisualizer extends Component {
         document.getElementById(`node-${node.row}-${node.col}`).className =
           'node node-shortest-path';
       }, 50 * i);
-      // const start = nodesInShortestPathOrder[0];
-      //  document.getElementById(`node-${start.row}-${start.col}`).className =
-      //     'node node-start';
-      // const stop = nodesInShortestPathOrder[nodesInShortestPathOrder.length-1];
-      //   document.getElementById(`node-${stop.row}-${stop.col}`).className =
-      //     'node node-finish';
     }
+    const start = nodesInShortestPathOrder[0];
+       document.getElementById(`node-${start.row}-${start.col}`).className =
+          'node node-start';
+      const stop = nodesInShortestPathOrder[nodesInShortestPathOrder.length-1];
+        document.getElementById(`node-${stop.row}-${stop.col}`).className =
+          'node node-finish';
   }
 
   visualizeDijkstra() {
@@ -125,6 +125,7 @@ export default class PathfindingVisualizer extends Component {
       <body>
       <div class="navbar">
         <ul>
+          <li class="starwarslogo"><img src={require('./starwars.png')} /> </li>
           <li class="text"><a onClick={() => window.location.reload()}> Pathfinding Visualizer</a></li>
           <li class="nav"><a onClick={() => this.clearBoard()}>
           Clear Board
@@ -168,11 +169,11 @@ export default class PathfindingVisualizer extends Component {
         </div>
         <div class="footer">
           <ul>
-            <li class="f"><img src={require('./start.png')} />    Start Node</li>
-            <li class="f"><img src={require('./end.png')} />    Target Node</li>
+            <li class="f"><img src={require('./spaceship.png')} />    Start Node</li>
+            <li class="f"><img src={require('./empire.png')} />    Target Node</li>
             <li class="f"><img src={require('./unvisited.png')} />    Unvisited Node</li>
-            <li class="f"><img src={require('./visited.png')} />    Visited Nodes</li>
-            <li class="f"><img src={require('./short.png')} />    Shortest Path Node</li>
+            <li class="f"><img src={require('./visited.png')} />    Visited Node</li>
+            <li class="f"><img src={require('./finish.png')} />    Shortest Path Node</li>
             <li class="f"><img src={require('./wall.png')} />   Wall Node</li>
           </ul>
         </div>

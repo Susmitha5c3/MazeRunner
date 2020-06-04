@@ -15,7 +15,7 @@ body {
 
   .navbar {
     /* margin-bottom: 30px; */
-    padding-bottom: 10px;
+    /* padding-bottom: 5px; */
     overflow: hidden;
     background-color: #151B54;
     font-family: Arial;
@@ -24,9 +24,9 @@ body {
   }
   .nav{
     float: left;
-    margin-left: 120px;
-    margin-right: 120px;
-    margin-top: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    /* margin-top: 3px; */
     font-size: 1.5em;
   }
 
@@ -38,6 +38,12 @@ body {
     margin-top: 0px;
   }
   
+  .starwarslogo {
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+  }
 
   a:hover{
     color: #82CAFF;
@@ -67,5 +73,6 @@ button:hover {
     margin-top: 0px;
     /* paddin: 40px; */
   float: left;
+  color: white;
   /* margin-left: 15px; */
 }
