@@ -1,8 +1,8 @@
 @import url('https://kit.fontawesome.com/a076d05399.js');
 
 .node {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     outline: 1px solid rgb(5, 15, 44);
     display: inline-block;
   }
@@ -52,7 +52,8 @@
   }
   
   .node-wall {
-    background-color: #3e7bfa;
+    /* background-color: #3e7bfa; */
+    background-image: url('DarthVader.png');
   }
   
   .node-shortest-path {
@@ -82,7 +83,7 @@
     100% {
       transform: scale(1);
       /* background-color: #c3073f; */
-      background-color: rgb(243, 140, 51);
-      /* background-image: url('start.png'); */
+      /* background-color: rgb(243, 140, 51); */
+      background-image: url('light.png');
     }
   }

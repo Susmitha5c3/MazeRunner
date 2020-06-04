@@ -5,10 +5,10 @@ import {dijkstra, getNodesInShortestPathOrder} from '../algorithms/dijkstra';
 
 import './PathfindingVisualizer.css';
 
-const START_NODE_ROW = 14;
+const START_NODE_ROW = 13;
 const START_NODE_COL = 15;
-const FINISH_NODE_ROW = 14;
-const FINISH_NODE_COL = 55;
+const FINISH_NODE_ROW = 13;
+const FINISH_NODE_COL = 45;
 
 export default class PathfindingVisualizer extends Component {
   constructor() {
@@ -131,7 +131,7 @@ export default class PathfindingVisualizer extends Component {
           Clear Board
         </a></li>
         <li class="nav"><button onClick={() => this.visualizeDijkstra()}>
-          Visualize Dijkstra's Algorithm
+          Find the Force!
         </button></li>
         <li class="nav"><a onClick={() => this.clearPath()}>
           Clear Path
@@ -173,8 +173,8 @@ export default class PathfindingVisualizer extends Component {
             <li class="f"><img src={require('./empire.png')} />    Target Node</li>
             <li class="f"><img src={require('./unvisited.png')} />    Unvisited Node</li>
             <li class="f"><img src={require('./visited.png')} />    Visited Node</li>
-            <li class="f"><img src={require('./finish.png')} />    Shortest Path Node</li>
-            <li class="f"><img src={require('./wall.png')} />   Wall Node</li>
+            <li class="f"><img src={require('./light.png')} />    Shortest Path Node</li>
+            <li class="f"><img src={require('./DarthVader.png')} />   Wall Node</li>
           </ul>
         </div>
       </body>
@@ -183,9 +183,9 @@ export default class PathfindingVisualizer extends Component {
 }
 const getInitialGrid = () => {
   const grid = [];
-  for (let row = 0; row < 29; row++) {
+  for (let row = 0; row < 25; row++) {
     const currentRow = [];
-    for (let col = 0; col < 76; col++) {
+    for (let col = 0; col < 63; col++) {
       currentRow.push(createNode(col, row));
     }
     grid.push(currentRow);
