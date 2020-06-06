@@ -1,0 +1,29 @@
+1. Seperate images for two visualizers. (separate css for three pages.)
+2. Redirect links fix
+3. Name change for all the instructions on page.
+4. Change names for buttons
+
+Dragon ball:
+
+1. Change goku, dragon and ball
+
+
+vinu okka image kuda lekapote images ela vastunay vunay kada leva images folder ekkada petav trash lo restart chey okasari app ni agu 
+
+StarWars:
+start - spaceship.png
+end - empire.png
+background - space.png
+visited  - visitedS.png
+unvisited - unvisitedS.png
+wall - DarkVader.png
+shortest path node - light.png
+ 
+DragonBall:
+start - Goku.png
+end - ball.png
+backgeound - nuvu vetivaga adi
+wall - snake.png
+visited - vekatali
+unvisited - vetakali
+shortest path node -  wave anavga adi chudali

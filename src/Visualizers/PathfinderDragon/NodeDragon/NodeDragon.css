@@ -1,0 +1,98 @@
+@import url('https://kit.fontawesome.com/a076d05399.js');
+
+.node {
+    width: 38px;
+    height: 38px;
+    outline: 1px solid #DA7063;
+    display: inline-block;
+  }
+  
+  .node-finish {
+    background-image: url(../../Images/ball.png);
+    /* background-color: none; */
+  }
+  
+  .node-start {
+    background-image: url('../../Images/Goku.png');
+    /* background-color: none; */
+  }
+  
+  .node-visited {
+    animation-name: visitedAnimation;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+  }
+  
+  @keyframes visitedAnimation {
+    0% {
+      transform: scale(0.3);
+      /* background-color: #181a22; */
+      background-color: #D44421;
+      /* border-radius: 100%; */
+    }
+  
+    50% {
+      background-color:#EB7060;
+    }
+  
+    75% {
+      transform: scale(1.2);
+      /* background-color: #45a29e; */
+      background-color: #F8AA7C;
+    }
+  
+    90% {
+      transform: scale(1);
+      transition-duration: 3s;
+      /* background-color: #66fcf1; */
+      background-color: #F2B49B;
+    }
+    100% {
+      background-color: none;
+    }
+  }
+  
+  .node-wall {
+    /* background-color: #3e7bfa; */
+    background-image: url(../../Images/dragon.png);
+    /* background-color: none; */
+  }
+  
+  .node-shortest-path {
+    animation-name: shortestPath;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+  }
+  
+  @keyframes shortestPath {
+    0% {
+      transform: scale(0.6);
+      /* background-color: #c3073f; */
+      background-color: peachpuff;
+      background-image: url('../../Images/light.png');
+    }
+  
+    50% {
+      transform: scale(1.2);
+      /* background-color: #c3073f; */
+      background-color: rgb(243, 140, 51);
+      background-image: url('../../Images/light.png');
+    }
+  
+    100% {
+      transform: scale(1);
+      /* background-color: #c3073f; */
+      /* background-color: rgb(243, 140, 51); */
+      background-image: url('../../Images/light.png');
+    }
+  }

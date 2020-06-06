@@ -1,0 +1,89 @@
+@import url('https://kit.fontawesome.com/a076d05399.js');
+
+.node {
+    width: 40px;
+    height: 40px;
+    outline: 1px solid rgb(5, 15, 44);
+    display: inline-block;
+  }
+  
+  .nodeFinish {
+    background-image: url(../../Images/empire.png);
+  }
+  
+  .nodeStart {
+    background-image: url(../../Images/spaceship.png);
+  }
+  
+  .nodeVisited {
+    animation-name: visitedAnimation;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+  }
+  
+  @keyframes visitedAnimation {
+    0% {
+      transform: scale(0.3);
+      /* background-color: #181a22; */
+      background-color: indigo;
+      border-radius: 100%;
+    }
+  
+    50% {
+      background-color: midnightblue;
+    }
+  
+    75% {
+      transform: scale(1.2);
+      background-color: rgb(0,191,255);
+    }
+  
+    100% {
+      transform: scale(1);
+      background-color: rgb(157,230,255);
+    }
+  }
+  
+  .nodeWall {
+    /* background-color: #3e7bfa; */
+    background-image: url('../../Images/DarkVader.png');
+  }
+  
+  .node-shortest-path {
+    animation-name: shortestPath;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+  }
+  
+  @keyframes shortestPath {
+    0% {
+      transform: scale(0.6);
+      /* background-color: peachpuff; */
+      background-image: url('../../Images/light.png');
+      background-blend-mode: lighten;
+    }
+  
+    50% {
+      transform: scale(1.2);
+      /* background-color: rgb(243, 140, 51); */
+      background-image: url('../../Images/light.png');
+      background-blend-mode: hard-light;
+    }
+  
+    100% {
+      transform: scale(1);
+      /* background-color: rgb(243, 140, 51); */
+      background-image: url('../../Images/light.png');
+      background-blend-mode: darken;
+    }
+  }
