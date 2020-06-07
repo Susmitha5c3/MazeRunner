@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './Node.css';
+import styles from'./Node.module.css';
 
 export default class Node extends Component {
   render() {
@@ -24,7 +24,7 @@ export default class Node extends Component {
     return (
       <div
         id={`node-${row}-${col}`}
-        className={`node ${extraClassName}`}
+        className={`${styles.node} ${extraClassName}`}
         onMouseDown={() => onMouseDown(row, col)}
         onMouseEnter={() => onMouseEnter(row, col)}
         onMouseUp={() => onMouseUp()}></div>
