@@ -59,7 +59,7 @@
   
   .nodeWall {
     /* background-color: #3e7bfa; */
-    background-image: url(../../Images/dragon.png);
+    background-image: url(../../Images/dragon1.png);
     /* background-color: none; */
   }
   
@@ -79,20 +79,20 @@
       transform: scale(0.6);
       /* background-color: #c3073f; */
       background-color: peachpuff;
-      background-image: url('../../Images/light.png');
+      background-image: url('../../Images/short.png');
     }
   
     50% {
       transform: scale(1.2);
       /* background-color: #c3073f; */
       background-color: rgb(243, 140, 51);
-      background-image: url('../../Images/light.png');
+      background-image: url('../../Images/short.png');
     }
   
     100% {
       transform: scale(1);
       /* background-color: #c3073f; */
       /* background-color: rgb(243, 140, 51); */
-      background-image: url('../../Images/light.png');
+      background-image: url('../../Images/short.png');
     }
   }

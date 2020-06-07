@@ -20,9 +20,9 @@
 
   .navbar {
     /* margin-bottom: 30px; */
-    /* padding-bottom: 5px; */
+    padding-bottom: 14px;
     overflow: hidden;
-    background-color: #151B54;
+    background-color: lightpink;
     font-family: Arial;
     color:white;
     

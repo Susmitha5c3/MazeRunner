@@ -5,9 +5,9 @@ import {dijkstra, getNodesInShortestPathOrder} from '../algorithms/dijkstra';
 import styles from './PathfinderDragon.module.css';
 import nodeStyles from'./NodeDragon/NodeDragon.module.css';
 
-const START_NODE_ROW = 10;
-const START_NODE_COL = 10;
-const FINISH_NODE_ROW = 10;
+const START_NODE_ROW = 13;
+const START_NODE_COL = 13;
+const FINISH_NODE_ROW = 13;
 const FINISH_NODE_COL = 35;
 
 export default class PathfinderDragon extends Component {
@@ -128,7 +128,7 @@ export default class PathfinderDragon extends Component {
       <body class={styles.body}>
       <div class={styles.navbar}>
         <ul>
-          <li class={styles.starwarslogo}><img src={require('../Images/dragonball.png')} /> </li>
+          <li class={styles.starwarslogo}><img src={require('../Images/dragonball1.png')} /> </li>
           <li class={styles.text}><a onClick={() => window.location.reload()}> Pathfinding Visualizer</a></li>
           <li class={styles.nav}><a onClick={() => this.clearBoard()}>
           Clear Board
@@ -174,10 +174,10 @@ export default class PathfinderDragon extends Component {
           <ul>
             <li class={styles.f}><img src={require('../Images/Goku.png')} />    Start Node</li>
             <li class={styles.f}><img src={require('../Images/ball.png')} />    Target Node</li>
-            <li class={styles.f}><img src={require('../Images/unvisitedS.png')} />    Unvisited Node</li>
-            <li class={styles.f}><img src={require('../Images/visitedS.png')} />   Visited Node</li>
-            <li class={styles.f}><img src={require('../Images/light.png')} />    Shortest Path Node</li>
-            <li class={styles.f}><img src={require('../Images/dragon.png')} />   Wall Node</li>
+            {/* <li class={styles.f}><img src={require('../Images/unvisitedS.png')} />    Unvisited Node</li> */}
+            {/* <li class={styles.f}><img src={require('../Images/visitedS.png')} />   Visited Node</li> */}
+            <li class={styles.f}><img src={require('../Images/short.png')} />    Shortest Path Node</li>
+            <li class={styles.f}><img src={require('../Images/dragon1.png')} />   Wall Node</li>
           </ul>
         </div>
       </body>

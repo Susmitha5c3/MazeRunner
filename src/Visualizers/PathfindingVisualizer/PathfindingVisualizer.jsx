@@ -175,8 +175,8 @@ export default class PathfindingVisualizer extends Component {
           <ul class={styles.ul}>
             <li class={styles.f}><img src={require('../Images/spaceship.png')} />    Start Node</li>
             <li class={styles.f}><img src={require('../Images/empire.png')} />    Target Node</li>
-            <li class={styles.f}><img src={require('../Images/unvisitedS.png')} />    Unvisited Node</li>
-            <li class={styles.f}><img src={require('../Images/visitedS.png')} />    Visited Node</li>
+            {/* <li class={styles.f}><img src={require('../Images/unvisitedS.png')} />    Unvisited Node</li> */}
+            {/* <li class={styles.f}><img src={require('../Images/visitedS.png')} />    Visited Node</li> */}
             <li class={styles.f}><img src={require('../Images/light.png')} />    Shortest Path Node</li>
             <li class={styles.f}><img src={require('../Images/DarkVader.png')} />   Wall Node</li>
           </ul>

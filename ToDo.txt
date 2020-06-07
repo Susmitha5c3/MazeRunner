@@ -11,19 +11,19 @@ Dragon ball:
 vinu okka image kuda lekapote images ela vastunay vunay kada leva images folder ekkada petav trash lo restart chey okasari app ni agu 
 
 StarWars:
-start - spaceship.png
-end - empire.png
-background - space.png
-visited  - visitedS.png
-unvisited - unvisitedS.png
-wall - DarkVader.png
-shortest path node - light.png
+start - spaceship.png -- done
+end - empire.png --done 
+background - space.png --done
+visited  - visitedS.png --
+unvisited - unvisitedS.png -- 
+wall - DarkVader.png -- done 
+shortest path node - light.png --done
  
 DragonBall:
-start - Goku.png
+start - Goku.png --done
 end - ball.png
-backgeound - nuvu vetivaga adi
+backgeound - --done
 wall - snake.png
-visited - vekatali
+visited - 
 unvisited - vetakali
-shortest path node -  wave anavga adi chudali
+shortest path node -  
