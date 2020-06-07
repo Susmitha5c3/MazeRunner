@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 
 //pages
-import MainPage from "./Visualizers";
+import MainPage from "./Visualizers/index";
 import PathfindingVisualizer from './Visualizers/PathfindingVisualizer/PathfindingVisualizer';
 import PathfinderDragon from './Visualizers/PathfinderDragon/PathfinderDragon';
 
@@ -18,8 +18,8 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={MainPage} />
-          <Route exact path="/pathfinder" component={PathfindingVisualizer} />
-          <Route exact path="/pathdragon" component={PathfinderDragon} />
+          {/* <Route exact path="/pathfinder" component={PathfindingVisualizer} /> */}
+          {/* <Route exact path="/pathdragon" component={PathfinderDragon} /> */}
         </Switch>
       </Router>
     </body>
