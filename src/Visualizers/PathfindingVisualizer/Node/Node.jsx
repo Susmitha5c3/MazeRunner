@@ -14,17 +14,18 @@ export default class Node extends Component {
       row,
     } = this.props;
     const extraClassName = isFinish
-      ? 'nodeFinish'
+      ? `${styles.nodeFinish}`
       : isStart
-      ? 'nodeStart'
+      ? `${styles.nodeStart}`
       : isWall
-      ? 'nodeWall'
+      ? `${styles.nodeWall}`
       : '';
 
     return (
       <div
         id={`node-${row}-${col}`}
-        className={`${styles.node} ${extraClassName}`}
+        className={` ${styles.node} ${extraClassName}`}
+        
         onMouseDown={() => onMouseDown(row, col)}
         onMouseEnter={() => onMouseEnter(row, col)}
         onMouseUp={() => onMouseUp()}></div>

@@ -7,17 +7,17 @@
     display: inline-block;
   }
   
-  .node-finish {
+  .nodeFinish {
     background-image: url(../../Images/ball.png);
     /* background-color: none; */
   }
   
-  .node-start {
+  .nodeStart {
     background-image: url('../../Images/Goku.png');
     /* background-color: none; */
   }
   
-  .node-visited {
+  .nodeVisited {
     animation-name: visitedAnimation;
     animation-duration: 1.5s;
     animation-timing-function: ease-out;
@@ -57,13 +57,13 @@
     }
   }
   
-  .node-wall {
+  .nodeWall {
     /* background-color: #3e7bfa; */
     background-image: url(../../Images/dragon.png);
     /* background-color: none; */
   }
   
-  .node-shortest-path {
+  .nodeShortestPath {
     animation-name: shortestPath;
     animation-duration: 1.5s;
     animation-timing-function: ease-out;

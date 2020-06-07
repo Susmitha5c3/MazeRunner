@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 import Node from './NodeDragon/NodeDragon';
 import {dijkstra, getNodesInShortestPathOrder} from '../algorithms/dijkstra';
 import styles from './PathfinderDragon.module.css';
+import nodeStyles from'./NodeDragon/NodeDragon.module.css';
 
 const START_NODE_ROW = 10;
 const START_NODE_COL = 10;
@@ -41,7 +42,7 @@ export default class PathfinderDragon extends Component {
   animateDijkstra(visitedNodesInOrder, nodesInShortestPathOrder) {
     const start = nodesInShortestPathOrder[0];
     document.getElementById(`node-${start.row}-${start.col}`).className =
-          'node node-start';
+          `${nodeStyles.node} ${nodeStyles.nodeStart}`;
     for (let i = 1; i <= visitedNodesInOrder.length; i++) {
       if (i === visitedNodesInOrder.length) {
         setTimeout(() => {
@@ -52,7 +53,7 @@ export default class PathfinderDragon extends Component {
       setTimeout(() => {
         const node = visitedNodesInOrder[i];
         document.getElementById(`node-${node.row}-${node.col}`).className =
-          'node node-visited';
+        `${nodeStyles.node} ${nodeStyles.nodeVisited}`;
       }, 10 * i);
     }
   }
@@ -62,15 +63,15 @@ export default class PathfinderDragon extends Component {
       setTimeout(() => {
         const node = nodesInShortestPathOrder[i];
         document.getElementById(`node-${node.row}-${node.col}`).className =
-          'node node-shortest-path';
+          `${nodeStyles.node} ${nodeStyles.nodeShortestPath}`;
       }, 50 * i);
     }
     const start = nodesInShortestPathOrder[0];
     document.getElementById(`node-${start.row}-${start.col}`).className =
-          'node node-start';
+          `${nodeStyles.node} ${nodeStyles.nodeStart}`;
     const stop = nodesInShortestPathOrder[nodesInShortestPathOrder.length-1];
     document.getElementById(`node-${stop.row}-${stop.col}`).className =
-          'node node-finish';
+          `${nodeStyles.node} ${nodeStyles.nodeFinish}`;
   }
 
   visualizeDijkstra() {
@@ -91,14 +92,14 @@ export default class PathfinderDragon extends Component {
     for (let i =0; i<visitedNodesInOrder.length; i++){
       const node = visitedNodesInOrder[i];
       document.getElementById(`node-${node.row}-${node.col}`).className =
-          'node node';
+          `${nodeStyles.node} ${nodeStyles.node}`;
     }
     const start = visitedNodesInOrder[0];
     document.getElementById(`node-${start.row}-${start.col}`).className =
-          'node node-start';
+          `${nodeStyles.node} ${nodeStyles.nodeStart}`;
     const stop = visitedNodesInOrder[visitedNodesInOrder.length-1];
     document.getElementById(`node-${stop.row}-${stop.col}`).className =
-          'node node-finish';
+          `${nodeStyles.node} ${nodeStyles.nodeFinish}`;
     this.componentDidMount();
   }
 
@@ -110,14 +111,14 @@ export default class PathfinderDragon extends Component {
     for (let i =0; i<visitedNodesInOrder.length; i++){
       const node = visitedNodesInOrder[i];
       document.getElementById(`node-${node.row}-${node.col}`).className =
-          'node node';
+          `${nodeStyles.node} ${nodeStyles.node}`;
     }
     const start = visitedNodesInOrder[0];
     document.getElementById(`node-${start.row}-${start.col}`).className =
-          'node node-start';
+          `${nodeStyles.node} ${nodeStyles.nodeStart}`;
     const stop = visitedNodesInOrder[visitedNodesInOrder.length-1];
     document.getElementById(`node-${stop.row}-${stop.col}`).className =
-          'node node-finish';
+          `${nodeStyles.node} ${nodeStyles.nodeFinish}`;
   }
 
   render() {
