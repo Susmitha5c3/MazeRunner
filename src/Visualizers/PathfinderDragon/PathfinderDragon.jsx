@@ -39,7 +39,10 @@ export default class PathfinderDragon extends Component {
   }
 
   animateDijkstra(visitedNodesInOrder, nodesInShortestPathOrder) {
-    for (let i = 0; i <= visitedNodesInOrder.length; i++) {
+    const start = nodesInShortestPathOrder[0];
+    document.getElementById(`node-${start.row}-${start.col}`).className =
+          'node node-start';
+    for (let i = 1; i <= visitedNodesInOrder.length; i++) {
       if (i === visitedNodesInOrder.length) {
         setTimeout(() => {
           this.animateShortestPath(nodesInShortestPathOrder);
