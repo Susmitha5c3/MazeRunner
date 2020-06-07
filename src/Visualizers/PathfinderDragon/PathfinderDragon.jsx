@@ -2,7 +2,6 @@
 import React, {Component} from 'react';
 import Node from './NodeDragon/NodeDragon';
 import {dijkstra, getNodesInShortestPathOrder} from '../algorithms/dijkstra';
-
 import styles from './PathfinderDragon.module.css';
 
 const START_NODE_ROW = 10;
