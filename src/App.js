@@ -18,7 +18,7 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={MainPage} />
-          <Route exact path="/pathfinder" component={PathfindingVisualizer} />
+          <Route exact path="/pathstar" component={PathfindingVisualizer} />
           <Route exact path="/pathdragon" component={PathfinderDragon} />
         </Switch>
       </Router>

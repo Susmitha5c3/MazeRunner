@@ -104,24 +104,6 @@ export default class PathfindingVisualizer extends Component {
     this.componentDidMount();
   }
 
-  clearPath(){
-    const {grid} = this.state;
-    const startNode = grid[START_NODE_ROW][START_NODE_COL];
-    const finishNode = grid[FINISH_NODE_ROW][FINISH_NODE_COL];
-    const visitedNodesInOrder = dijkstra(grid, startNode, finishNode);
-    for (let i =0; i<visitedNodesInOrder.length; i++){
-      const node = visitedNodesInOrder[i];
-      document.getElementById(`node-${node.row}-${node.col}`).className =
-      `${nodeStyles.node} ${nodeStyles.node}`;
-    }
-    const start = visitedNodesInOrder[0];
-    document.getElementById(`node-${start.row}-${start.col}`).className =
-    `${nodeStyles.node} ${nodeStyles.nodeStart}`;
-    const stop = visitedNodesInOrder[visitedNodesInOrder.length-1];
-    document.getElementById(`node-${stop.row}-${stop.col}`).className =
-    `${nodeStyles.node} ${nodeStyles.nodeFinish}`;
-  }
-
   render() {
     const {grid, mouseIsPressed} = this.state;
 
@@ -130,18 +112,12 @@ export default class PathfindingVisualizer extends Component {
       <div class={styles.navbar}>
         <ul class={styles.ul}>
           <li class={styles.starwarslogo}><img src={require('../Images/starwars.png')} /> </li>
-          <li class={styles.text}><a class={styles.a}onClick={() => window.location.reload()}> Pathfinding Visualizer</a></li>
-          <li class={styles.nav}><a class={styles.a} onClick={() => this.clearBoard()}>
-          Clear Board
-        </a></li>
-        <li class={styles.nav}><button class={styles.button} onClick={() => this.visualizeDijkstra()}>
+          <li class={styles.text}><a class={styles.a}onClick={() => window.location.reload()}> Maze Runner </a></li>
+          <li class={styles.nav}><button class={styles.button} onClick={() => this.visualizeDijkstra()}>
           Visualize Dijkstra's Algorithm
         </button></li>
-        <li class={styles.nav}><a class={styles.a} onClick={() => this.clearPath()}>
-          Clear Path
-        </a></li>
-        <li class={styles.nav}><a class={styles.a} onClick={() => this.componentDidMount()}>
-          Clear Walls
+          <li class={styles.nav }><a class={styles.a} onClick={() => this.clearBoard()}>
+          Clear Board
         </a></li>
         </ul>
       </div>
