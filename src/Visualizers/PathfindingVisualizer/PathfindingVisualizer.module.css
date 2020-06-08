@@ -1,8 +1,7 @@
 .body {
   /* background-color: none; */
   background-image: url('../Images/space.jpg');
-  background-blend-mode: lighten;
-  /* opacity: 0.5; */
+  background-blend-mode: soft-light;
 }
 
 .grid {

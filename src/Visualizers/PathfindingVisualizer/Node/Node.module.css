@@ -40,12 +40,16 @@
   
     75% {
       transform: scale(1.2);
-      background-color: rgb(0,191,255);
+      background-color: rgb(12, 8, 245);
+    }
+
+    90%{
+      background-color: rgb(15, 116, 248);
     }
   
     100% {
-      transform: scale(1);
-      background-color: rgb(157,230,255);
+      /* transform: scale(1); */
+      background-color: none;
     }
   }
   
