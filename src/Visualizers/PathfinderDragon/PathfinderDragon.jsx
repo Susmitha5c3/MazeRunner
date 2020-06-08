@@ -129,17 +129,17 @@ export default class PathfinderDragon extends Component {
       <div class={styles.navbar}>
         <ul>
           <li class={styles.starwarslogo}><img src={require('../Images/dragonball1.png')} /> </li>
-          <li class={styles.text}><a onClick={() => window.location.reload()}> Pathfinding Visualizer</a></li>
-          <li class={styles.nav}><a onClick={() => this.clearBoard()}>
+          <li class={styles.text}><a class={styles.a} onClick={() => window.location.reload()}> Pathfinding Visualizer</a></li>
+          <li class={styles.nav}><a class={styles.a} onClick={() => this.clearBoard()}>
           Clear Board
         </a></li>
-        <li class={styles.nav}><button onClick={() => this.visualizeDijkstra()}>
+        <li class={styles.nav}><button class={styles.button} onClick={() => this.visualizeDijkstra()}>
           Visualize Dijkstra's Algorithm
         </button></li>
-        <li class={styles.nav}><a onClick={() => this.clearPath()}>
+        <li class={styles.nav}><a class={styles.a} onClick={() => this.clearPath()}>
           Clear Path
         </a></li>
-        <li class={styles.nav}><a onClick={() => this.componentDidMount()}>
+        <li class={styles.nav}><a class={styles.a} onClick={() => this.componentDidMount()}>
           Clear Walls
         </a></li>
         </ul>
