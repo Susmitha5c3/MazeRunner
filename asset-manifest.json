@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/MazeRunner/static/css/main.210a2c7f.chunk.css",
-    "main.js": "/MazeRunner/static/js/main.087dd5e9.chunk.js",
-    "main.js.map": "/MazeRunner/static/js/main.087dd5e9.chunk.js.map",
-    "runtime-main.js": "/MazeRunner/static/js/runtime-main.418e2ecb.js",
-    "runtime-main.js.map": "/MazeRunner/static/js/runtime-main.418e2ecb.js.map",
-    "static/js/2.7aa56f8c.chunk.js": "/MazeRunner/static/js/2.7aa56f8c.chunk.js",
-    "static/js/2.7aa56f8c.chunk.js.map": "/MazeRunner/static/js/2.7aa56f8c.chunk.js.map",
+    "main.js": "/MazeRunner/static/js/main.8146e7c6.chunk.js",
+    "main.js.map": "/MazeRunner/static/js/main.8146e7c6.chunk.js.map",
+    "runtime-main.js": "/MazeRunner/static/js/runtime-main.6e131f24.js",
+    "runtime-main.js.map": "/MazeRunner/static/js/runtime-main.6e131f24.js.map",
+    "static/js/2.b7651ad0.chunk.js": "/MazeRunner/static/js/2.b7651ad0.chunk.js",
+    "static/js/2.b7651ad0.chunk.js.map": "/MazeRunner/static/js/2.b7651ad0.chunk.js.map",
     "index.html": "/MazeRunner/index.html",
-    "precache-manifest.6059f58bb83b9a7d3c425999395cc10a.js": "/MazeRunner/precache-manifest.6059f58bb83b9a7d3c425999395cc10a.js",
+    "precache-manifest.c7c18cdbbeeae439ebfd6aa4c8306b01.js": "/MazeRunner/precache-manifest.c7c18cdbbeeae439ebfd6aa4c8306b01.js",
     "service-worker.js": "/MazeRunner/service-worker.js",
     "static/css/main.210a2c7f.chunk.css.map": "/MazeRunner/static/css/main.210a2c7f.chunk.css.map",
-    "static/js/2.7aa56f8c.chunk.js.LICENSE.txt": "/MazeRunner/static/js/2.7aa56f8c.chunk.js.LICENSE.txt",
+    "static/js/2.b7651ad0.chunk.js.LICENSE.txt": "/MazeRunner/static/js/2.b7651ad0.chunk.js.LICENSE.txt",
     "static/media/PathfinderDragon.module.css": "/MazeRunner/static/media/dbworld.000f1fec.jpg",
     "static/media/index.module.css": "/MazeRunner/static/media/starwarsentry.996de70a.jpeg",
     "static/media/PathfindingVisualizer.module.css": "/MazeRunner/static/media/space.4f71df7e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.418e2ecb.js",
-    "static/js/2.7aa56f8c.chunk.js",
+    "static/js/runtime-main.6e131f24.js",
+    "static/js/2.b7651ad0.chunk.js",
     "static/css/main.210a2c7f.chunk.css",
-    "static/js/main.087dd5e9.chunk.js"
+    "static/js/main.8146e7c6.chunk.js"
   ]
 }
