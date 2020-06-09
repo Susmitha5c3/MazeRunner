@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/MazeRunner/static/css/main.210a2c7f.chunk.css",
-    "main.js": "/MazeRunner/static/js/main.48232cdc.chunk.js",
-    "main.js.map": "/MazeRunner/static/js/main.48232cdc.chunk.js.map",
+    "main.js": "/MazeRunner/static/js/main.b5c0cacf.chunk.js",
+    "main.js.map": "/MazeRunner/static/js/main.b5c0cacf.chunk.js.map",
     "runtime-main.js": "/MazeRunner/static/js/runtime-main.6e131f24.js",
     "runtime-main.js.map": "/MazeRunner/static/js/runtime-main.6e131f24.js.map",
-    "static/js/2.b7651ad0.chunk.js": "/MazeRunner/static/js/2.b7651ad0.chunk.js",
-    "static/js/2.b7651ad0.chunk.js.map": "/MazeRunner/static/js/2.b7651ad0.chunk.js.map",
+    "static/js/2.adf8b46e.chunk.js": "/MazeRunner/static/js/2.adf8b46e.chunk.js",
+    "static/js/2.adf8b46e.chunk.js.map": "/MazeRunner/static/js/2.adf8b46e.chunk.js.map",
     "index.html": "/MazeRunner/index.html",
-    "precache-manifest.ddb847213f0b3a5a1aa5109bcae39f1d.js": "/MazeRunner/precache-manifest.ddb847213f0b3a5a1aa5109bcae39f1d.js",
+    "precache-manifest.d02b2195af1f5df5a554f40fc42bfa2f.js": "/MazeRunner/precache-manifest.d02b2195af1f5df5a554f40fc42bfa2f.js",
     "service-worker.js": "/MazeRunner/service-worker.js",
     "static/css/main.210a2c7f.chunk.css.map": "/MazeRunner/static/css/main.210a2c7f.chunk.css.map",
-    "static/js/2.b7651ad0.chunk.js.LICENSE.txt": "/MazeRunner/static/js/2.b7651ad0.chunk.js.LICENSE.txt",
+    "static/js/2.adf8b46e.chunk.js.LICENSE.txt": "/MazeRunner/static/js/2.adf8b46e.chunk.js.LICENSE.txt",
     "static/media/PathfinderDragon.module.css": "/MazeRunner/static/media/dbworld.000f1fec.jpg",
     "static/media/index.module.css": "/MazeRunner/static/media/starwarsentry.996de70a.jpeg",
     "static/media/PathfindingVisualizer.module.css": "/MazeRunner/static/media/space.4f71df7e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6e131f24.js",
-    "static/js/2.b7651ad0.chunk.js",
+    "static/js/2.adf8b46e.chunk.js",
     "static/css/main.210a2c7f.chunk.css",
-    "static/js/main.48232cdc.chunk.js"
+    "static/js/main.b5c0cacf.chunk.js"
   ]
 }
