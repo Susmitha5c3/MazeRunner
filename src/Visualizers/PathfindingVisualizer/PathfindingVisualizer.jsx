@@ -112,7 +112,7 @@ export default class PathfindingVisualizer extends Component {
       <div class={styles.navbar}>
         <ul class={styles.ul}>
           <li class={styles.starwarslogo}><img src={require('../Images/starwars.png')} /> </li>
-          <li class={styles.text}>Maze Runner</li>
+          <li class={styles.text}><a class={styles.a}onClick={() => window.location.reload()}> Maze Runner </a></li>
           <li class={styles.nav}><button class={styles.button} onClick={() => this.visualizeDijkstra()}>
           Visualize Dijkstra's Algorithm
         </button></li>
