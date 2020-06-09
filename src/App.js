@@ -16,11 +16,9 @@ function App() {
   return (
     <body>
       <Router>
-        <Switch>
-          <Route exact path="/MazeRunner" component={MainPage} />
+          <Route exact path="/" component={MainPage} />
           <Route exact path="/pathstar" component={PathfindingVisualizer} />
           <Route exact path="/pathdragon" component={PathfinderDragon} />
-        </Switch>
       </Router>
     </body>
   );
