@@ -1,5 +1,5 @@
 {
-  "name": "pathfinding-visualizer",
+  "name": "maze-runner",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
