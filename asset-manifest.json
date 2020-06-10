@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/MazeRunner/static/css/main.210a2c7f.chunk.css",
-    "main.js": "/MazeRunner/static/js/main.a1d74e69.chunk.js",
-    "main.js.map": "/MazeRunner/static/js/main.a1d74e69.chunk.js.map",
-    "runtime-main.js": "/MazeRunner/static/js/runtime-main.6e131f24.js",
-    "runtime-main.js.map": "/MazeRunner/static/js/runtime-main.6e131f24.js.map",
-    "static/js/2.adf8b46e.chunk.js": "/MazeRunner/static/js/2.adf8b46e.chunk.js",
-    "static/js/2.adf8b46e.chunk.js.map": "/MazeRunner/static/js/2.adf8b46e.chunk.js.map",
-    "index.html": "/MazeRunner/index.html",
-    "precache-manifest.54f5b784febf370101485b195a306564.js": "/MazeRunner/precache-manifest.54f5b784febf370101485b195a306564.js",
-    "service-worker.js": "/MazeRunner/service-worker.js",
-    "static/css/main.210a2c7f.chunk.css.map": "/MazeRunner/static/css/main.210a2c7f.chunk.css.map",
-    "static/js/2.adf8b46e.chunk.js.LICENSE.txt": "/MazeRunner/static/js/2.adf8b46e.chunk.js.LICENSE.txt",
-    "static/media/PathfinderDragon.module.css": "/MazeRunner/static/media/dbworld.000f1fec.jpg",
-    "static/media/index.module.css": "/MazeRunner/static/media/starwarsentry.996de70a.jpeg",
-    "static/media/PathfindingVisualizer.module.css": "/MazeRunner/static/media/space.4f71df7e.jpg"
+    "main.css": "/mazeRunner/static/css/main.a404960b.chunk.css",
+    "main.js": "/mazeRunner/static/js/main.d824064d.chunk.js",
+    "main.js.map": "/mazeRunner/static/js/main.d824064d.chunk.js.map",
+    "runtime-main.js": "/mazeRunner/static/js/runtime-main.f24c76c0.js",
+    "runtime-main.js.map": "/mazeRunner/static/js/runtime-main.f24c76c0.js.map",
+    "static/js/2.adf8b46e.chunk.js": "/mazeRunner/static/js/2.adf8b46e.chunk.js",
+    "static/js/2.adf8b46e.chunk.js.map": "/mazeRunner/static/js/2.adf8b46e.chunk.js.map",
+    "index.html": "/mazeRunner/index.html",
+    "precache-manifest.6d784da83b0daf54401324a8c7c49238.js": "/mazeRunner/precache-manifest.6d784da83b0daf54401324a8c7c49238.js",
+    "service-worker.js": "/mazeRunner/service-worker.js",
+    "static/css/main.a404960b.chunk.css.map": "/mazeRunner/static/css/main.a404960b.chunk.css.map",
+    "static/js/2.adf8b46e.chunk.js.LICENSE.txt": "/mazeRunner/static/js/2.adf8b46e.chunk.js.LICENSE.txt",
+    "static/media/PathfinderDragon.module.css": "/mazeRunner/static/media/dbworld.000f1fec.jpg",
+    "static/media/index.module.css": "/mazeRunner/static/media/starwarsentry.996de70a.jpeg",
+    "static/media/PathfindingVisualizer.module.css": "/mazeRunner/static/media/space.4f71df7e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6e131f24.js",
+    "static/js/runtime-main.f24c76c0.js",
     "static/js/2.adf8b46e.chunk.js",
-    "static/css/main.210a2c7f.chunk.css",
-    "static/js/main.a1d74e69.chunk.js"
+    "static/css/main.a404960b.chunk.css",
+    "static/js/main.d824064d.chunk.js"
   ]
 }
